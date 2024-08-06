@@ -1,7 +1,7 @@
 const levelup = require('levelup');
-const memdown = require('memdown');
+const leveldown = require('leveldown');
 
 // Create or open the underlying in-memory LevelDB store
-const db = levelup(memdown(), { valueEncoding: 'json' });
+const db = levelup(leveldown("./database/db"), { valueEncoding: 'json' });
 
 module.exports = db;
