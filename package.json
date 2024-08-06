@@ -1,0 +1,23 @@
+{
+  "name": "barber-app",
+  "version": "1.0.0",
+  "description": "A simple barber app using Node.js and LevelDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^8.5.1",
+    "level": "^7.0.1",
+    "level-js": "^6.1.0",
+    "leveldown": "^6.1.1",
+    "levelup": "^5.1.1",
+    "memdown": "^6.1.1",
+    "nodemon": "^3.1.4"
+  },
+  "author": "Barrack Amuyunzu",
+  "license": "ISC"
+}
